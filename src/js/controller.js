@@ -66,7 +66,7 @@ const controlServings = function (newservings) {
   model.updateServings(newservings);
   recipeView.update(model.state.recipe);
 };
-//_+
+//_//_sgit
 const controlAddRecipe = async function (data) {
   try {
     addRecipeView.renderSpinner();
